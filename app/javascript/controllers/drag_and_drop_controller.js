@@ -25,7 +25,7 @@ export default class extends Controller {
     this.xOffset = event.clientX - this.initialX;
     this.yOffset = event.clientY - this.initialY;
 
-    this.element.style.transform = `translate(${this.xOffset}px ${this.yOffset}px)`;
+    this.element.style.transform = `translate(${this.xOffset}px, ${this.yOffset}px)`;
     //transforms the style of the current box
   }
 }
